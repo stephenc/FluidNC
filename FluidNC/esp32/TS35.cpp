@@ -20,7 +20,7 @@
 
 namespace {
     // ST7796 initialization values are derived from Bodmer's TFT_eSPI
-    // ST7796_Init.h (FreeBSD license) as bundled in Makerbase MKS-DLC32
+    // ST7796_Init.h (FreeBSD license; see /THIRD_PARTY_NOTICES.md) as bundled in Makerbase MKS-DLC32
     // firmware. Commands are issued independently here; no TFT_eSPI or LVGL
     // dependency is introduced.
     constexpr uint8_t PositiveGamma[] = { 0xf0, 0x09, 0x0b, 0x06, 0x04, 0x15, 0x2f, 0x54, 0x42, 0x3c, 0x17, 0x14, 0x18, 0x1b };

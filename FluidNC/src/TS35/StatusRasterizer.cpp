@@ -39,8 +39,8 @@ namespace TS35 {
             return rgb565(71, 85, 105);
         }
 
-        // Five-column glyphs from the public-domain glcdfont table historically
-        // distributed with Adafruit GFX. Text is uppercased to keep this subset small.
+        // Five-column glyphs from the glcdfont table distributed with Adafruit
+        // GFX (see /THIRD_PARTY_NOTICES.md). Text is uppercased to keep this subset small.
         std::array<uint8_t, 5> glyph(char input) {
             char c = static_cast<char>(std::toupper(static_cast<unsigned char>(input)));
             switch (c) {
